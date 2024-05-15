@@ -1,8 +1,14 @@
 /*External method of using css*/
 
+/* Universal selectors */
+*{
+    margin: 0;
+    padding: 0;
+}
+
 p{
     color: brown;
-    background-color: rgba(0, 255, 255, 0.274);
+    background-color: rgba(0, 255, 255, 0);
     font-size: 20px;
     font-weight: bold;
     text-align: right;
@@ -10,4 +16,12 @@ p{
 
 #secondParagraph{
     color: blue;
+}
+
+.test{
+    color: red;
+}
+
+div p{
+    background-color: aqua;
 }
